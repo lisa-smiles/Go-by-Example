@@ -54,7 +54,7 @@
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.activityIndicatorColor = [UIColor lightGrayColor];
     hud.labelText = @"Loading";
-    }
+}
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     [MBProgressHUD hideHUDForView:self.view animated:YES];
